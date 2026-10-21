@@ -1,0 +1,175 @@
+[
+  {
+    "panel": "Figure_4A",
+    "directory": "Figure_4A_全细胞UMAP",
+    "kind": "r",
+    "cellchat_panel": null,
+    "title_en": "Whole-cell UMAP",
+    "required_source_files": [
+      "Figure4A_saved_umap_metadata.csv"
+    ]
+  },
+  {
+    "panel": "Figure_4B",
+    "directory": "Figure_4B_细胞类型富集log2OR",
+    "kind": "incomplete",
+    "cellchat_panel": null,
+    "title_en": "Cell-type enrichment (log2 odds ratio)",
+    "required_source_files": []
+  },
+  {
+    "panel": "Figure_4C",
+    "directory": "Figure_4C_各细胞类型差异基因数量",
+    "kind": "r",
+    "cellchat_panel": null,
+    "title_en": "Differentially expressed gene counts",
+    "required_source_files": [
+      "DEG_statistics.csv"
+    ]
+  },
+  {
+    "panel": "Figure_4D",
+    "directory": "Figure_4D_CellChat差异信号通路",
+    "kind": "cellchat",
+    "cellchat_panel": "D",
+    "title_en": "CellChat pathway comparison",
+    "required_source_files": [
+      "aggregate_networks_NO_SINGLE_CELL_EXPRESSION.rds"
+    ]
+  },
+  {
+    "panel": "Figure_4E",
+    "directory": "Figure_4E_巨噬细胞M1_M2评分",
+    "kind": "incomplete",
+    "cellchat_panel": null,
+    "title_en": "Macrophage M1/M2 scores",
+    "required_source_files": []
+  },
+  {
+    "panel": "Figure_4F",
+    "directory": "Figure_4F_巨噬细胞KEGG",
+    "kind": "incomplete",
+    "cellchat_panel": null,
+    "title_en": "Macrophage KEGG enrichment",
+    "required_source_files": []
+  },
+  {
+    "panel": "Figure_4G",
+    "directory": "Figure_4G_CellChat通讯强度圈图",
+    "kind": "cellchat",
+    "cellchat_panel": "G",
+    "title_en": "CellChat interaction-strength circles",
+    "required_source_files": [
+      "aggregate_networks_NO_SINGLE_CELL_EXPRESSION.rds"
+    ]
+  },
+  {
+    "panel": "Figure_4H",
+    "directory": "Figure_4H_Tumor到Macrophage信号",
+    "kind": "cellchat",
+    "cellchat_panel": "H",
+    "title_en": "Tumor-to-macrophage signaling",
+    "required_source_files": [
+      "aggregate_networks_NO_SINGLE_CELL_EXPRESSION.rds"
+    ]
+  },
+  {
+    "panel": "Figure_4I",
+    "directory": "Figure_4I_Macrophage到Tumor信号",
+    "kind": "cellchat",
+    "cellchat_panel": "I",
+    "title_en": "Macrophage-to-tumor signaling",
+    "required_source_files": [
+      "aggregate_networks_NO_SINGLE_CELL_EXPRESSION.rds"
+    ]
+  },
+  {
+    "panel": "Figure_4J",
+    "directory": "Figure_4J_巨噬细胞亚群UMAP",
+    "kind": "r",
+    "cellchat_panel": null,
+    "title_en": "Macrophage-subtype UMAP",
+    "required_source_files": [
+      "Macrophages_UMAP_plot_source.csv"
+    ]
+  },
+  {
+    "panel": "Figure_4K",
+    "directory": "Figure_4K_巨噬细胞RNA_velocity",
+    "kind": "velocity",
+    "cellchat_panel": null,
+    "title_en": "Macrophage RNA velocity",
+    "required_source_files": [
+      "source_Control/pdf_vector_source.json.gz",
+      "source_1A4_Antibody/pdf_vector_source.json.gz"
+    ]
+  },
+  {
+    "panel": "Figure_5A",
+    "directory": "Figure_5A_T细胞亚群UMAP",
+    "kind": "r",
+    "cellchat_panel": null,
+    "title_en": "T-cell-subtype UMAP",
+    "required_source_files": [
+      "T_cells_UMAP_plot_source.csv"
+    ]
+  },
+  {
+    "panel": "Figure_5B",
+    "directory": "Figure_5B_T细胞亚群比例",
+    "kind": "r",
+    "cellchat_panel": null,
+    "title_en": "T-cell-subtype proportions",
+    "required_source_files": [
+      "Figure5B_manuscript_C1_T2_source_data.csv"
+    ]
+  },
+  {
+    "panel": "Figure_5G",
+    "directory": "Figure_5G_GO富集",
+    "kind": "incomplete",
+    "cellchat_panel": null,
+    "title_en": "GO enrichment",
+    "required_source_files": []
+  },
+  {
+    "panel": "Figure_5H",
+    "directory": "Figure_5H_KEGG富集",
+    "kind": "incomplete",
+    "cellchat_panel": null,
+    "title_en": "KEGG enrichment",
+    "required_source_files": []
+  },
+  {
+    "panel": "Figure_5I",
+    "directory": "Figure_5I_T细胞RNA_velocity",
+    "kind": "velocity",
+    "cellchat_panel": null,
+    "title_en": "T-cell RNA velocity",
+    "required_source_files": [
+      "source_Control/pdf_vector_source.json.gz",
+      "source_1A4_Antibody/pdf_vector_source.json.gz"
+    ]
+  },
+  {
+    "panel": "Supplementary_Figure_5A",
+    "directory": "Supplementary_Figure_5A_细胞标记基因气泡图",
+    "kind": "r",
+    "cellchat_panel": null,
+    "title_en": "Cell-marker dot plot",
+    "required_source_files": [
+      "SupplementaryFigure5A_original_DotPlot_layer_data.csv",
+      "SupplementaryFigure5A_original_marker_list.csv"
+    ]
+  },
+  {
+    "panel": "Supplementary_Figure_5B",
+    "directory": "Supplementary_Figure_5B_各样本细胞类型比例",
+    "kind": "r",
+    "cellchat_panel": null,
+    "title_en": "Per-sample cell-type proportions",
+    "required_source_files": [
+      "SupplementaryFigure5B_manuscript_selected_C1_T2_counts_proportions.csv"
+    ]
+  }
+]

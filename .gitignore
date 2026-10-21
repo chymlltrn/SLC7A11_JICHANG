@@ -1,0 +1,9 @@
+# Source data remain private / 绘图数据暂不公开
+**/Source_data/
+**/Matched_figures/
+**/Reference/
+**/Reconstructed_figures/
+validation_outputs/
+__pycache__/
+*.pyc
+.DS_Store
